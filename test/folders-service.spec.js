@@ -1,7 +1,7 @@
 const { expect } = require("chai");
 const knex = require("knex");
 const FoldersService = require("../src/folders/folders-service");
-const app = require("../src/app");
+
 
 describe.only("Folders service object", function () {
   let db;
