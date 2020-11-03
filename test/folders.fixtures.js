@@ -18,3 +18,8 @@ function makeFoldersArray() {
         },
       ];
 }
+
+module.exports = {
+  makeFoldersArray,
+}
+

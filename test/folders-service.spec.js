@@ -3,7 +3,7 @@ const knex = require("knex");
 const FoldersService = require("../src/folders/folders-service");
 
 
-describe.only("Folders service object", function () {
+describe("Folders service object", function () {
   let db;
 
   before(() => {
